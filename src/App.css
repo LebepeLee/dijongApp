@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #F190B7;
+}
+.food{
+  display: grid;
+  border: 5px solid #F806CC;
+  grid-template-columns: repeat(3,1fr);
+  padding: 20px;
+}
+.food img{
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+}
+.App{
+  display: flex;
+}
+h1{
+  color: #781C68;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Order{
+ width: 500px;
+max-height: 94%;
+}
+.Cart{
+  border: 5px solid #F806CC;
+  grid-template-columns: repeat(2,1fr);
+  display: grid;
+  padding: 20px;
+  width: 500px;
+  margin-left: 50px;
+  height:auto;
+}
+.Cart img{
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+}
+h3{
+  color: #781C68;
+  margin-left: 20px;
+}
